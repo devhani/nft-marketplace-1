@@ -1,21 +1,19 @@
 {
-  "name": "backend",
+  "name": "318-create-nft",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "node server.js"
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
   },
-  "engines": {
-    "node": "12.x"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@koa/cors": "^3.1.0",
-    "@koa/router": "^10.0.0",
-    "koa": "^2.13.1",
-    "koa-static": "^5.0.0"
+    "@openzeppelin/contracts": "^4.0.0-beta.0",
+    "@truffle/hdwallet-provider": "^1.2.3"
   }
 }
